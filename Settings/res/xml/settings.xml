@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory android:title="@string/pref_lock_category">
+        	<Preference android:key="prefPattern"
+                android:title="@string/pref_lock_pattern_set"
+            	android:summary="@string/pref_lock_pattern_summary_set"
+            	android:persistent="true" />
+            	        
+	        <xyz.jamework.settings.PatternDialogPreference
+	            android:key="prefPatternDialog"
+	            android:title="@string/pref_disable_pattern"
+	            android:dialogMessage="@string/pref_disable_pattern_dialog_message" >
+	            
+	        </xyz.jamework.settings.PatternDialogPreference>
+	        
+    </PreferenceCategory>
+    
+ 
+</PreferenceScreen>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Settings</string>
+    <string name="menu_settings">Settings</string>
+       
+	<string name="pref_lock_category">Lock Application</string>
+	<string name="pref_lock_pattern_name">prefPattern</string>   
+    <string name="pref_lock_pattern_set">Set Lock Pattern</string>
+    <string name="pref_lock_pattern_change">Change Lock Pattern</string>
+    <string name="pref_lock_pattern_summary_set">Set the pattern to lock BlackBox</string>
+    <string name="pref_lock_pattern_summary_change">Change the pattern that locks BlackBox</string>
+    <string name="pref_disable_pattern">Disable locking pattern</string>
+    <string name="pref_disable_pattern_dialog_message">Are you sure you wish to disable BlacBox locking screen pattern ?</string>
+    
+</resources>
